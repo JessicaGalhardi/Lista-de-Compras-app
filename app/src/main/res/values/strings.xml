@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name"> The List </string>
+    <string name="hint_produto">Digite o item a ser cadastrado</string>
+    <string name="btn_salvar">Salvar produto</string>
+    <string name="empty_not_saved">Operação cancelada!Por favor, preencha todos os dados!</string>
+    <string name="add_produto">Add Produtos</string>
+    <string name="recycler">recycler</string>
+    <string name="lista">Faça a sua lista de compras</string>
+    <string name="quantidade">Entre com a quantidade do produto</string>
+    <string name="produto">Entre com o produto</string>
+    <string name="title_activity_novo_item">NovoItemActivity</string>
+
+</resources>

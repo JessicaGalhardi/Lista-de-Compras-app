@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NovoProdutoActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_drawable"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@drawable/lista"
+            android:padding="10dp"
+            android:src="@drawable/lista" />
+
+        <TextView
+            android:id="@+id/lblTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/belgrano"
+            android:paddingTop="30dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbl_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/belgrano"
+        android:padding="20dp"
+        android:text="Lista de compras"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/edit_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_produto"
+        android:inputType="textAutoComplete"
+        android:minHeight="@dimen/min_height"
+        android:textColorHint="#757575"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:backgroundTint="#8798B3"
+        android:fontFamily="@font/belgrano"
+        android:text="@string/btn_salvar"
+        android:textColor="#1A237E"
+        android:textSize="20sp" />
+
+</LinearLayout>
